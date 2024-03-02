@@ -1,0 +1,33 @@
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias S='sudo pacman -S'
+alias R='sudo pacman -Rns'
+alias aur='paru -S'
+alias vim='nvim'
+alias zshrc='vim ~/.zshrc'
+alias zsha='vim ~/.zsh_aliases'
+alias dwmrc='vim ~/.suckless/dwm/config.def.h'
+alias dmenurc='vim ~/.suckless/dmenu/config.def.h'
+alias strc='vim ~/.suckless/st/config.def.h'
+
+
+function cd_dwm () {
+	cd ~/.suckless/dwm
+}
+
+function cd_dmenu () {
+  cd ~/.suckless/dmenu
+}
+
+function cd_st () {
+  cd ~/.suckless/st
+}
+
+function compile () {
+	rm -rf config.h
+	sudo make clean install
+}
+
+source ~/.zsh/sudo.plugin.zsh
+source ~/.zsh/fsh/fast-syntax-highlighting.plugin.zsh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh

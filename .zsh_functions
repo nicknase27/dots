@@ -1,0 +1,25 @@
+term="$(cat /proc/$PPID/comm)"
+if [[ $term = "st" ]]; then
+    transset-df "0.7" --id "$WINDOWID"> /dev/null 
+fi
+
+(cat ~/.cache/wal/sequences &)
+source ~/.cache/wal/colors-tty.sh
+
+
+function cd_dwm () {
+	cd ~/.suckless/dwm
+}
+
+function cd_dmenu () {
+  cd ~/.suckless/dmenu
+}
+
+function cd_st () {
+  cd ~/.suckless/st
+}
+
+function compile () {
+	rm -rf config.h
+	sudo make clean install
+}
