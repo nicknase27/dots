@@ -1,4 +1,4 @@
-alias ls='ls --color=auto'
+alias ls='lsd'
 alias grep='grep --color=auto'
 alias S='sudo pacman -S'
 alias R='sudo pacman -Rns'
@@ -9,6 +9,7 @@ alias zsha='vim ~/.zsh_aliases'
 alias dwmrc='vim ~/.suckless/dwm/config.def.h'
 alias dmenurc='vim ~/.suckless/dmenu/config.def.h'
 alias strc='vim ~/.suckless/st/config.def.h'
+alias dots='cd ~/.dots/'
 
 
 function cd_dwm () {
