@@ -1,9 +1,0 @@
-[terminal]
-shell = { program = "/bin/zsh", args = ["-l"] }
-
-[font]
-normal = { family = "JetBrains Mono", style = "Regular" }
-
-[window]
-opacity = 0.8
-decorations = "none"
