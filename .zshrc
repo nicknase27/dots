@@ -80,6 +80,8 @@ alias hyprcfg='nvim "$(ls ~/.config/hypr/**/*(.N) | sed "s|$HOME/.config/hypr/||
 alias barcfg='nvim "$(ls ~/.config/waybar/**/*(.N) | sed "s|$HOME/.config/waybar/||" | fzf | xargs -I{} echo ~/.config/waybar/{} )"'
 
 
+(cat ~/.cache/wal/sequences &)
+
 #alias acfg='nvim ~/.config/alacritty/alacritty.toml'
 alias ncfg='nvim ~/.config/nvim/init.lua'
 
