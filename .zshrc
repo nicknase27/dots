@@ -82,6 +82,8 @@ alias barcfg='nvim "$(ls ~/.config/waybar/**/*(.N) | sed "s|$HOME/.config/waybar
 
 (cat ~/.cache/wal/sequences &)
 
+[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
+
 #alias acfg='nvim ~/.config/alacritty/alacritty.toml'
 alias ncfg='nvim ~/.config/nvim/init.lua'
 
