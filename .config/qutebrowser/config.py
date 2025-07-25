@@ -25,6 +25,7 @@ config.set("colors.webpage.darkmode.enabled", False, "https://www.youtube.com/*"
 # Styles
 c.content.user_stylesheets = ['~/.config/qutebrowser/youtube.css']
 c.tabs.padding = {'top': 3, 'bottom': 3, 'left': 6, 'right': 6}
+c.tabs.show = 'multiple'
 
 # Binds
 config.bind('<Ctrl-1>', 'tab-focus 1')
@@ -40,8 +41,8 @@ config.bind('<Ctrl-9>', 'tab-focus 9')
 # Search engines
 c.url.searchengines = {
         'DEFAULT': 'https://duckduckgo.com/?q={}',
-        '!aw': 'https://wiki.archlinux.org/?search={}',
-        '!yt': 'https://www.youtube.com/results?search_query={}'
+        'aw': 'https://wiki.archlinux.org/?search={}',
+        'yt': 'https://www.youtube.com/results?search_query={}'
         }
 
 # Privacy

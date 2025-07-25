@@ -1,5 +1,5 @@
 configuration {
-  font: "JetBrainsMono Nerd Font Medium 10";
+  font: "JetBrainsMono Nerd Font Medium 13";
 
   drun {
     display-name: "";
@@ -38,7 +38,7 @@ configuration {
 window {
   padding: 6px;
   transparency: "real";
-  width: 600;
+  width: 800;
   border-radius: 10px;
 }
 
