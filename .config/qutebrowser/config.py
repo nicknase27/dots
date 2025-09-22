@@ -38,6 +38,8 @@ config.bind('<Ctrl-7>', 'tab-focus 7')
 config.bind('<Ctrl-8>', 'tab-focus 8')
 config.bind('<Ctrl-9>', 'tab-focus 9')
 
+config.bind('M', 'hint links spawn mpv {hint-url}')
+
 # Search engines
 c.url.searchengines = {
         'DEFAULT': 'https://duckduckgo.com/?q={}',
